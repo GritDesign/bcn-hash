@@ -8,6 +8,7 @@ as well as being included in the web client by using browserify.
 
 
 ## Installation
+
 ```
 npm install bcn-hash
 ```
@@ -22,5 +23,3 @@ var hash = hashObject(object);
 hash[0]   // (the hash eg "MFzAV3Dr59jPFDmsXKv6fj6TX5E"
 hash[1]   // the stringified object data, (what the hash was calculated from)
 ```
-
-
