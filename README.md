@@ -16,10 +16,11 @@ npm install bcn-hash
 ## Usage
 
 ```
-var hashObject = require("bcn-hash").hashObject;
+var hash = require("bcn-hash");
 
-var hash = hashObject(object);
+var id1 = hash.hashString("test");
+var id2 = hash.hashBuffer(new Buffer("test"));
 
-hash[0]   // (the hash eg "MFzAV3Dr59jPFDmsXKv6fj6TX5E"
-hash[1]   // the stringified object data, (what the hash was calculated from)
+// id1 -> qUqP5cyxm6YcTAhz05Hph5gvu9M 
+// id2 -> qUqP5cyxm6YcTAhz05Hph5gvu9M
 ```
