@@ -12,7 +12,9 @@
   },
   "main": "lib/bcn-hash.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+      "bcn-stringify": "0.0.3"
+  },
   "optionalDependencies": {},
   "scripts": {
 	   "test": "node tests/test.js"
